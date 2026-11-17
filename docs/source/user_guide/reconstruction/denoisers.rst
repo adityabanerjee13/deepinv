@@ -138,6 +138,18 @@ See :ref:`pretrained-weights` for more information on pretrained denoisers.
      - RGB, grayscale
      - Yes
      - No
+   * - :class:`deepinv.models.NECTR`
+     - Learned non-local filter (CNN)
+     - Any C, H, W
+     - No
+     - Yes (optional)
+     - No
+   * - :class:`deepinv.models.NECTRUNet`
+     - Learned non-local filter (CNN-UNet)
+     - Any C, H, W
+     - No
+     - Yes (optional)
+     - No
 .. _non-learned-denoisers:
 
 Classical denoisers
